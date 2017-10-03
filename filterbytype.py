@@ -1,2 +1,4 @@
-my_list['magical unicorns', 19, 'hello', 98.98, 'world']
-print(my_list[0])
+count = 0
+while count <= 100:
+    print('thats a big number ', count)
+    count + count +1
