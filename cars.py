@@ -4,6 +4,11 @@ class Car:
         self.speed = speed
         self.mileage = mileage
         self.tax = tax
-    display_all()
+    def display_info():
+
+    def ride():
+
+    def reverse():
+    
 
 
