@@ -1,9 +1,13 @@
-my_dict = {
-    {"name" : "Speros", "num" : "(555) 555-5555"},
-    {"name" : "Michael", "num": "(999) 999-9999"},
-    {"name" : "Jay", "num": "(777) 777-7777"}
-#for student in my_dict:
-    #print student["name"] + " " + student["num"]
+def make_tuples(some_dict):
+    return some_dict.items()
 
-    tuple_name = ("Speros",)("Michael",)("Jay")
-    tuple_num = ("(555) 555-5555",)("(999) 999-9999",)("(777) 777-7777")
+
+# Test it out
+my_dict = {
+    "Speros": "(555) 555-5555",
+    "Michael": "(999) 999-9999",
+    "Jay": "(777) 777-7777"
+}
+print 'Expected:[("Speros", "(555) 555-5555"), ("Michael", "(999) 999-9999"), ("Jay", "(777) 777-7777")]'
+print 'Actual -------'
+print make_tuples(my_dict)
