@@ -5,5 +5,6 @@ favorite_animal = ["horse", "cat", "spider",
 
 def make_dict(arr1, arr2):
   new_dict = {}
-  # your code here
+  result = add(arr1, arr2)
+  print result
   return new_dict
